@@ -65,3 +65,8 @@ let unionTypes: (number | string)[] = ['test', 21];
 const apple: 'apple' = 'hello';     error...
 */
 let clothSize: 'small' | 'medium' | 'large' = 'small';
+
+// type エイリアス
+type BodySize = 'small' | 'medium' | 'large'
+
+let bodySize: BodySize = 'small';

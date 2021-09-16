@@ -50,3 +50,4 @@ var unionTypes = ['test', 21];
 const apple: 'apple' = 'hello';     error...
 */
 var clothSize = 'small';
+var bodySize = 'small';
